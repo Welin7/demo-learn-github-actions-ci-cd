@@ -5,4 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello Step
-        run: echo "Welcome to CI/CD"
+        run:  |
+          echo  "This is line one"
+          echo  "This is line two"
+          echo  "This is line three"
+        
