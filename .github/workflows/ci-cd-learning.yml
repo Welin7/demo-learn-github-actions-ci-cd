@@ -4,7 +4,10 @@ on:
     branches:
       - master
       - development
-      - 'release/**'
+      - 'release/**'  
+  pull_request:
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
